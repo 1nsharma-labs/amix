@@ -1,0 +1,19 @@
+[project]
+name = "amix"
+version = "0.1.0"
+description = "India-first AI intelligence platform - from contextual AI to Super Intelligence."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+amix = "amix.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
