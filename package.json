@@ -1,0 +1,47 @@
+{
+  "name": "amix",
+  "version": "1.0.0",
+  "description": "Sovereign Indian AI Architecture & 12-Agent Fleet Engine from AI to Super Intelligence (SI)",
+  "type": "module",
+  "main": "core/src/index.js",
+  "bin": {
+    "amix": "./cli/bin/amix.js"
+  },
+  "scripts": {
+    "start": "node cli/bin/amix.js status",
+    "test": "node --test test/test_amix.js",
+    "mcp": "node core/src/mcp/server.js",
+    "bench": "node cli/bin/amix.js bench"
+  },
+  "keywords": [
+    "amix",
+    "shutter",
+    "indic-ai",
+    "super-intelligence",
+    "ai-agents",
+    "multi-agent",
+    "mcp",
+    "mcp-server",
+    "indic-bench",
+    "qwen",
+    "deepseek-r1",
+    "autonomous-agents"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/amix.git"
+  },
+  "homepage": "https://1nsharma-labs.github.io/amix/",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://polar.sh/1nsharma-labs"
+    },
+    {
+      "type": "upi",
+      "url": "upi://pay?pa=6393741171@upi&pn=Amit%20Sharma"
+    }
+  ]
+}

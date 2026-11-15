@@ -16,3 +16,8 @@ build/
 # IDE
 .vscode/
 .idea/
+
+# Node & Frontend
+node_modules/
+.next/
+*.log
